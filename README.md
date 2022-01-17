@@ -1,2 +1,2 @@
 # CalcProject
-Simple Calculator using Python program
+Simple Calculator using Python 
