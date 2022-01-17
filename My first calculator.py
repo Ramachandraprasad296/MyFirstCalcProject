@@ -1,6 +1,6 @@
 import re
 
-print('This is my First Project using Python')
+print('Simple Calculator program using Python')
 print("Type 'exit' to quit the program\n")
 
 previous = 0
@@ -12,12 +12,12 @@ def MyAdvanceCalc():
 
    equation = " "
    if previous == 0:
-       equation = input("Enter your Calculation:\n")
+       equation = input("Enter your values:\n")
    else:
        equation = input(str(previous))
 
    if equation == 'exit':
-       print("Bye Human, See you later")
+       print("See you later")
        run = False
    else:
        equation = re.sub('[a-zA-z,.:()" "]', ' ', equation)
